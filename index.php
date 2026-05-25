@@ -3,13 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<<<<<<< HEAD
     <link rel="stylesheet" href="assets/CSS/style.css">
     <title>Document</title>
-=======
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Tela Inicial</title>
->>>>>>> 5951c415229d686d8aa06adfe64a70b8a9189dfa
 </head>
 <body>
     <header> 
@@ -68,13 +65,28 @@
             </section>
             
             <section class="redes-sociais">
+                <h3>REDES SOCIAIS</h3>
                 
+                <section class="item">
+                    <img src="assets/img/facebook.png">
+                    <p>Facebook</p>
+                </section>
+                
+                <section class="item">
+                    <img src="assets/img/instagram.png">
+                    <p>Instagram</p>
+                </section>
+                
+                <section class="item">
+                    <img src="assets/img/twitter.png">
+                    <p>Twitter</p>
+                </section>
             </section>
         </section>
 
 
         <section class="copyright">
-            <img src="" alt="">
+            <img src="assets/img/logo.png" alt="logo techfit">
             <p>© 2026 TECHFIT - Todos os direitos reservados.</p>
         </section>
     </footer>
