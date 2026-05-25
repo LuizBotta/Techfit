@@ -54,3 +54,50 @@ footer .contato{
     height: 1px;
     background: rgba(255,255,255,0.3);
 }
+
+header {
+    background-color: #00060C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    gap: 30px;
+    border-top:solid 2px #00AC;
+    
+    
+}
+
+.logo img{
+    width: 300px;
+    margin-top: 20px;
+}
+
+.menu-horizontal ul{
+    list-style: none;
+    display: flex;
+}
+
+.menu-horizontal li{
+    padding: 20px;
+}
+
+.menu-horizontal a{
+    text-decoration: none;
+}
+
+.menu-horizontal a:hover{
+    color: #00ACFE;
+}
+
+
+.botao-entrar button{
+    color: #00ACFE;
+    border: solid 2px #00ACFE;
+    background-color: #00060C;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.botao-entrar button:hover{
+    background-color: #E5E5E5;
+}
