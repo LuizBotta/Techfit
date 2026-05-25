@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/CSS/style.css">
+    <title>Document</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Tela Inicial</title>
 </head>
@@ -28,7 +30,6 @@
         </section>
 
     </header>
-    
     <!-- **************************************************************************** -->
    
     <section class="conteudo">
@@ -65,5 +66,61 @@
         </section>
 
     </section>
+
+    <footer>
+
+        <section class="footer-links">
+
+            <section class="navegacao">
+                <h3>NAVEGAÇÃO</h3>
+                <a href="#">Início</a>
+                <a href="#">Exercícios</a>
+                <a href="#">Treinos</a>
+                <a href="#">Nutrição</a>
+            </section>
+
+
+            <section class="modalidade">
+                <h3>MODALIDADES</h3>
+                <a href="#">Peso Corporal</a>
+                <a href="#">Musculação</a>
+                <a href="#">Mobilidade</a>
+                <a href="#">Alongamento</a>
+            </section>
+
+            <section class="contato">
+                <h3>CONTATO</h1>
+                <p>techfit@email.com.br</p>
+                <p>Presidente Prudente - SP</p>
+                <p>(18) 99799-9999</p>
+            </section>
+            
+            <section class="redes-sociais">
+                <h3>REDES SOCIAIS</h3>
+                
+                <section class="item">
+                    <img src="assets/img/facebook.png">
+                    <p>Facebook</p>
+                </section>
+                
+                <section class="item">
+                    <img src="assets/img/instagram.png">
+                    <p>Instagram</p>
+                </section>
+                
+                <section class="item">
+                    <img src="assets/img/twitter.png">
+                    <p>Twitter</p>
+                </section>
+            </section>
+        </section>
+
+
+        <section class="copyright">
+            <img src="assets/img/logo.png" alt="logo techfit">
+            <p>© 2026 TECHFIT - Todos os direitos reservados.</p>
+        </section>
+    </footer>
+
 </body>
 </html>
