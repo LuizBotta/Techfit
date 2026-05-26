@@ -18,7 +18,13 @@
         <section class="menu-horizontal">
             <ul>
                 <li><a href="index.php">INICIO</a></li>
-                <li><a href="">EXERCICIOS</a></li>
+                <li class="dropdown">
+                    <a href="">EXERCICIOS</a>
+                <ul class="submenu">
+                    <li><a href="">Academia</a></li>
+                    <li><a href="">Peso Corporal</a></li>
+                </ul>
+                </li>
                 <li><a href="">TREINOS</a></li>
                 <li><a href="view/nutricao.php">NUTRIÇÃO</a></li>
                 <li><a href="view/login.php">SOBRE NÓS</a></li>
@@ -65,62 +71,62 @@
             <img src="assets/img/banner_barra.png " alt="Imagem de uma barra com anilhas">
         </section>
 
-    </section>
-
-    <footer>
-
-        <section class="footer-links">
-
-            <section class="navegacao">
-                <h3>NAVEGAÇÃO</h3>
-                <a href="#">Início</a>
-                <a href="#">Exercícios</a>
-                <a href="#">Treinos</a>
-                <a href="#">Nutrição</a>
-            </section>
-
-
-            <section class="modalidade">
-                <h3>MODALIDADES</h3>
-                <a href="#">Peso Corporal</a>
-                <a href="#">Musculação</a>
-                <a href="#">Mobilidade</a>
-                <a href="#">Alongamento</a>
-            </section>
-
-            <section class="contato">
-                <h3>CONTATO</h1>
-                <p>techfit@email.com.br</p>
-                <p>Presidente Prudente - SP</p>
-                <p>(18) 99799-9999</p>
+        
+        <footer>
+            
+            <section class="footer-links">
+                
+                <section class="navegacao">
+                    <h3>NAVEGAÇÃO</h3>
+                    <a href="#">Início</a>
+                    <a href="#">Exercícios</a>
+                    <a href="#">Treinos</a>
+                    <a href="#">Nutrição</a>
+                </section>
+                
+                
+                <section class="modalidade">
+                    <h3>MODALIDADES</h3>
+                    <a href="#">Peso Corporal</a>
+                    <a href="#">Musculação</a>
+                    <a href="#">Mobilidade</a>
+                    <a href="#">Alongamento</a>
+                </section>
+                
+                <section class="contato">
+                    <h3>CONTATO</h1>
+                    <p>techfit@email.com.br</p>
+                    <p>Presidente Prudente - SP</p>
+                    <p>(18) 99799-9999</p>
+                </section>
+                
+                <section class="redes-sociais">
+                    <h3>REDES SOCIAIS</h3>
+                    
+                    <section class="item">
+                        <img src="assets/img/facebook.png">
+                        <p>Facebook</p>
+                    </section>
+                    
+                    <section class="item">
+                        <img src="assets/img/instagram.png">
+                        <p>Instagram</p>
+                    </section>
+                    
+                    <section class="item">
+                        <img src="assets/img/twitter.png">
+                        <p>Twitter</p>
+                    </section>
+                </section>
             </section>
             
-            <section class="redes-sociais">
-                <h3>REDES SOCIAIS</h3>
-                
-                <section class="item">
-                    <img src="assets/img/facebook.png">
-                    <p>Facebook</p>
-                </section>
-                
-                <section class="item">
-                    <img src="assets/img/instagram.png">
-                    <p>Instagram</p>
-                </section>
-                
-                <section class="item">
-                    <img src="assets/img/twitter.png">
-                    <p>Twitter</p>
-                </section>
+            
+            <section class="copyright">
+                <img src="assets/img/logo.png" alt="logo techfit">
+                <p>© 2026 TECHFIT - Todos os direitos reservados.</p>
             </section>
-        </section>
-
-
-        <section class="copyright">
-            <img src="assets/img/logo.png" alt="logo techfit">
-            <p>© 2026 TECHFIT - Todos os direitos reservados.</p>
-        </section>
-    </footer>
+        </footer>
+    </section>
 
 </body>
 </html>
