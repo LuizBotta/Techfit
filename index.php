@@ -59,23 +59,44 @@
         <section class="modalidades">   
             <h1>Nossas Modalidades</h1>
         </section>
-
         <section class="modalidades-opcoes"> 
-            <img src="assets/img/flexao.png" alt="Rapaz fazendo flexão">
-            <img src="assets/img/biceps.png" alt="Rapaz fazendo biceps">
-            <img src="assets/img/mobilidade.png" alt="Rapaz fazendo mobilidade">
-            <img src="assets/img/alongamento.png" alt="Rapaz fazendo alongamento">
-        </section>
+            <section class="modalidade-card">
+                <a href="" ><img src="assets/img/flexao.png" alt="Rapaz fazendo flexão"></a>
+                <p>Peso Corporal</p>
+            </section>
+            
+            <section class="modalidade-card">
+                <a href="" ><img src="assets/img/biceps.png" alt="Rapaz fazendo biceps"></a>
+                <p>Musculação</p>
+            </section>
+            
+            <section class="modalidade-card">
+                <a href="" ><img src="assets/img/mobilidade.png" alt="Rapaz fazendo mobilidade"> </a>
+                <p>Mobilidade</p>
+            </section>
+            
+            <section class="modalidade-card">
+                <a href="" ><img src="assets/img/alongamento.png" alt="Rapaz fazendo alongamento"> </a>
+                <p>Alongamento</p>
+            </section>
+    </section>
 
         <section class="banner-barra">
             <img src="assets/img/banner_barra.png " alt="Imagem de uma barra com anilhas">
         </section>
 
+<<<<<<< HEAD
         
         <footer>
             
             <section class="footer-links">
                 
+=======
+        <footer>
+    
+            <section class="footer-links">
+    
+>>>>>>> 7962ffaa086f2e1e3d011a1d0141256aa30c4a9a
                 <section class="navegacao">
                     <h3>NAVEGAÇÃO</h3>
                     <a href="#">Início</a>
@@ -83,8 +104,13 @@
                     <a href="#">Treinos</a>
                     <a href="#">Nutrição</a>
                 </section>
+<<<<<<< HEAD
                 
                 
+=======
+    
+    
+>>>>>>> 7962ffaa086f2e1e3d011a1d0141256aa30c4a9a
                 <section class="modalidade">
                     <h3>MODALIDADES</h3>
                     <a href="#">Peso Corporal</a>
@@ -92,7 +118,11 @@
                     <a href="#">Mobilidade</a>
                     <a href="#">Alongamento</a>
                 </section>
+<<<<<<< HEAD
                 
+=======
+    
+>>>>>>> 7962ffaa086f2e1e3d011a1d0141256aa30c4a9a
                 <section class="contato">
                     <h3>CONTATO</h1>
                     <p>techfit@email.com.br</p>
@@ -119,14 +149,23 @@
                     </section>
                 </section>
             </section>
+<<<<<<< HEAD
             
             
+=======
+    
+    
+>>>>>>> 7962ffaa086f2e1e3d011a1d0141256aa30c4a9a
             <section class="copyright">
                 <img src="assets/img/logo.png" alt="logo techfit">
                 <p>© 2026 TECHFIT - Todos os direitos reservados.</p>
             </section>
         </footer>
     </section>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7962ffaa086f2e1e3d011a1d0141256aa30c4a9a
 
 </body>
 </html>
