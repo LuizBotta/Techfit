@@ -76,8 +76,13 @@
     </section>
 
         <section class="banner-barra">
-            <img src="assets/img/banner_barra.png " alt="Imagem de uma barra com anilhas">
-        </section>
+            <img src="assets/img/banner_barra.png" alt="Imagem de uma barra com anilhas">
+            <section class="banner-barra-texto">
+                <p class="banner-barra-titulo">PRONTO PARA TRANSFORMAR SEU CORPO?</p>
+                <p class="banner-barra-subtitulo">Crie sua conta e tenha acesso a treinos, planos e muito mais!</p>
+            </section>
+             <a href="view/login.php" class="banner-barra-btn">CRIAR CONTA</a>
+</section>
 
         <footer>
     
@@ -101,7 +106,7 @@
                 </section>
     
                 <section class="contato">
-                    <h3>CONTATO</h1>
+                    <h3>CONTATO</h3>
                     <p>techfit@email.com.br</p>
                     <p>Presidente Prudente - SP</p>
                     <p>(18) 99799-9999</p>
