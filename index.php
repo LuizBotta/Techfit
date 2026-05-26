@@ -53,74 +53,88 @@
         <section class="modalidades">   
             <h1>Nossas Modalidades</h1>
         </section>
-
         <section class="modalidades-opcoes"> 
-            <img src="assets/img/flexao.png" alt="Rapaz fazendo flexão">
-            <img src="assets/img/biceps.png" alt="Rapaz fazendo biceps">
-            <img src="assets/img/mobilidade.png" alt="Rapaz fazendo mobilidade">
-            <img src="assets/img/alongamento.png" alt="Rapaz fazendo alongamento">
-        </section>
+            <section class="modalidade-card">
+                <a href="" ><img src="assets/img/flexao.png" alt="Rapaz fazendo flexão"></a>
+                <p>Peso Corporal</p>
+            </section>
+            
+            <section class="modalidade-card">
+                <a href="" ><img src="assets/img/biceps.png" alt="Rapaz fazendo biceps"></a>
+                <p>Musculação</p>
+            </section>
+            
+            <section class="modalidade-card">
+                <a href="" ><img src="assets/img/mobilidade.png" alt="Rapaz fazendo mobilidade"> </a>
+                <p>Mobilidade</p>
+            </section>
+            
+            <section class="modalidade-card">
+                <a href="" ><img src="assets/img/alongamento.png" alt="Rapaz fazendo alongamento"> </a>
+                <p>Alongamento</p>
+            </section>
+    </section>
 
         <section class="banner-barra">
             <img src="assets/img/banner_barra.png " alt="Imagem de uma barra com anilhas">
         </section>
 
+        <footer>
+    
+            <section class="footer-links">
+    
+                <section class="navegacao">
+                    <h3>NAVEGAÇÃO</h3>
+                    <a href="#">Início</a>
+                    <a href="#">Exercícios</a>
+                    <a href="#">Treinos</a>
+                    <a href="#">Nutrição</a>
+                </section>
+    
+    
+                <section class="modalidade">
+                    <h3>MODALIDADES</h3>
+                    <a href="#">Peso Corporal</a>
+                    <a href="#">Musculação</a>
+                    <a href="#">Mobilidade</a>
+                    <a href="#">Alongamento</a>
+                </section>
+    
+                <section class="contato">
+                    <h3>CONTATO</h1>
+                    <p>techfit@email.com.br</p>
+                    <p>Presidente Prudente - SP</p>
+                    <p>(18) 99799-9999</p>
+                </section>
+                
+                <section class="redes-sociais">
+                    <h3>REDES SOCIAIS</h3>
+                    
+                    <section class="item">
+                        <img src="assets/img/facebook.png">
+                        <p>Facebook</p>
+                    </section>
+                    
+                    <section class="item">
+                        <img src="assets/img/instagram.png">
+                        <p>Instagram</p>
+                    </section>
+                    
+                    <section class="item">
+                        <img src="assets/img/twitter.png">
+                        <p>Twitter</p>
+                    </section>
+                </section>
+            </section>
+    
+    
+            <section class="copyright">
+                <img src="assets/img/logo.png" alt="logo techfit">
+                <p>© 2026 TECHFIT - Todos os direitos reservados.</p>
+            </section>
+        </footer>
     </section>
 
-    <footer>
-
-        <section class="footer-links">
-
-            <section class="navegacao">
-                <h3>NAVEGAÇÃO</h3>
-                <a href="#">Início</a>
-                <a href="#">Exercícios</a>
-                <a href="#">Treinos</a>
-                <a href="#">Nutrição</a>
-            </section>
-
-
-            <section class="modalidade">
-                <h3>MODALIDADES</h3>
-                <a href="#">Peso Corporal</a>
-                <a href="#">Musculação</a>
-                <a href="#">Mobilidade</a>
-                <a href="#">Alongamento</a>
-            </section>
-
-            <section class="contato">
-                <h3>CONTATO</h1>
-                <p>techfit@email.com.br</p>
-                <p>Presidente Prudente - SP</p>
-                <p>(18) 99799-9999</p>
-            </section>
-            
-            <section class="redes-sociais">
-                <h3>REDES SOCIAIS</h3>
-                
-                <section class="item">
-                    <img src="assets/img/facebook.png">
-                    <p>Facebook</p>
-                </section>
-                
-                <section class="item">
-                    <img src="assets/img/instagram.png">
-                    <p>Instagram</p>
-                </section>
-                
-                <section class="item">
-                    <img src="assets/img/twitter.png">
-                    <p>Twitter</p>
-                </section>
-            </section>
-        </section>
-
-
-        <section class="copyright">
-            <img src="assets/img/logo.png" alt="logo techfit">
-            <p>© 2026 TECHFIT - Todos os direitos reservados.</p>
-        </section>
-    </footer>
 
 </body>
 </html>
