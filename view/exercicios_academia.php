@@ -60,6 +60,9 @@
 
 </section>
 
+<section class="modalidades">   
+            <h1>Exercicios</h1>
+        </section>
 <!-- ================================================= -->
 
 <section class="conteudo-exercicios">
@@ -175,11 +178,101 @@
 
             </section>
 
+            <section class="card-exercicio">
+
+                <img src="../assets/img/triceps.png" alt="Triceps">
+
+                <section class="card-texto">
+
+                    <h3>Triceps Pulley</h3>
+
+                    <p>
+                        Exercício isolado para triceps
+                        com corda na polia.
+                    </p>
+
+                    <a href="">VER DETALHES</a>
+
+                </section>
+
+            </section>
+
+            <section class="card-exercicio">
+
+                <img src="../assets/img/legpress.png" alt="Legpress">
+
+                <section class="card-texto">
+
+                    <h3>LegPress</h3>
+
+                    <p>
+                        Exercício para quadriceps
+                        e posterior de coxa.
+                    </p>
+
+                    <a href="">VER DETALHES</a>
+
+                </section>
+
+            </section>
+
         </section>
 
     </section>
 
 </section>
+
+<footer>
+    
+            <section class="footer-links">
+                <section class="navegacao">
+                    <h3>NAVEGAÇÃO</h3>
+                    <a href="#">Início</a>
+                    <a href="#">Exercícios</a>
+                    <a href="#">Treinos</a>
+                    <a href="#">Nutrição</a>
+                </section>
+
+                <section class="modalidade">
+                    <h3>MODALIDADES</h3>
+                    <a href="#">Peso Corporal</a>
+                    <a href="#">Musculação</a>
+                    <a href="#">Mobilidade</a>
+                    <a href="#">Alongamento</a>
+                </section>
+
+                <section class="contato">
+                    <h3>CONTATO</h3>
+                    <p>techfit@email.com.br</p>
+                    <p>Presidente Prudente - SP</p>
+                    <p>(18) 99799-9999</p>
+                </section>
+                
+                <section class="redes-sociais">
+                    <h3>REDES SOCIAIS</h3>
+                    
+                    <section class="item">
+                        <img src="../assets/img/facebook.png">
+                        <p>Facebook</p>
+                    </section>
+                    
+                    <section class="item">
+                        <img src="../assets/img/instagram.png">
+                        <p>Instagram</p>
+                    </section>
+                    
+                    <section class="item">
+                        <img src="../assets/img/twitter.png">
+                        <p>Twitter</p>
+                    </section>
+                </section>
+            </section>
+
+            <section class="copyright">
+                <img src="../assets/img/logo.png" alt="logo techfit">
+                <p>© 2026 TECHFIT - Todos os direitos reservados.</p>
+            </section>
+        </footer>
 
 </body>
 </html>

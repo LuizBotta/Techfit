@@ -9,6 +9,81 @@ body{
     background-color: #00060C;
 }
 
+footer{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+footer a:hover{
+    color: #00AEEF;
+}
+footer .footer-links{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding: 5px;
+    
+}
+footer .navegacao{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #006594;
+}
+footer .modalidade{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer .contato{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+footer .redes-sociais{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+footer .redes-sociais .item{
+    display: flex;
+    align-items: center; 
+    gap: 8px;
+}  
+footer .redes-sociais img{
+    width: 15px;
+    height: 15px;
+    margin: 3px;
+}
+.copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 30px;
+}
+
+.copyright::before,
+.copyright::after{
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: rgba(255,255,255,0.3);
+}
+.copyright img{
+    width:50px;
+    height: 50px;
+    margin-left: 2px;
+
+}
+
 /* HEADER */
 
 header{
@@ -28,7 +103,7 @@ header{
     margin-top: 20px;
 }
 
-.menu-horizontal ul{
+.menu-horizontal > ul{
     display: flex;
     gap: 50px;
     list-style: none;
@@ -41,6 +116,7 @@ header{
 .menu-horizontal a:hover{
     color: #00ACFE;
 }
+
 
 .botao-entrar button{
     color: #00ACFE;
@@ -87,21 +163,59 @@ header{
     background-color:#0d2235;
 }
 
+.logo img{
+    width: 300px;
+    margin-top: 20px;
+}
+
+.menu-horizontal > ul {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+
+
+.menu-horizontal li{
+    padding: 20px;
+}
+
+.menu-horizontal a{
+    text-decoration: none;
+}
+
+.menu-horizontal a:hover{
+    color: #00ACFE;
+}
+
 /* ======================================= */
 
-.banner-exercicios{
-
-    background-image: url("../img/banner_exercicios.png");
-
+.banner-exercicios {
+    background-image: url("/Techfit/Techfit/assets/img/banner_exercicios_academia.png");
     background-size: cover;
     background-position: center;
-
     height: 350px;
-
     display: flex;
     align-items: center;
-
     padding-left: 100px;
+}
+
+.modalidades h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.modalidades h1::before,
+.modalidades h1::after {
+    content: "";
+    flex: 1;
+    height: 2px;
+    background: linear-gradient(to right, transparent, #00ACFE);
+}
+
+.modalidades h1::after {
+    background: linear-gradient(to left, transparent, #00ACFE);
 }
 
 .texto-banner{
