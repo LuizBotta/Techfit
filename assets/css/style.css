@@ -95,16 +95,53 @@ header {
     border-bottom:solid 2px #00AC;
 
 }
+.submenu {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: #07131f;
+    list-style: none;
+    padding: 10px 0;
+    min-width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+.dropdown{
+    position: relative;
+}
+
+/* itens do submenu */
+
+.submenu li{
+    padding:10px 20px;
+    display: block;
+}
+
+/* hover do dropdown */
+
+.dropdown:hover .submenu {
+    display: block; /* nunca flex, sempre block */
+}
+
+/* hover dos itens */
+
+.submenu li:hover{
+    background-color:#0d2235;
+}
 
 .logo img{
     width: 300px;
     margin-top: 20px;
 }
 
-.menu-horizontal ul{
-    list-style: none;
+.menu-horizontal > ul {
     display: flex;
+    gap: 50px;
+    list-style: none;
 }
+
 
 .menu-horizontal li{
     padding: 20px;
@@ -314,3 +351,5 @@ header {
     position: absolute;
     width: 100%;
 }
+
+

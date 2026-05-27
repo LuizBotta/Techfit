@@ -18,7 +18,13 @@
         <section class="menu-horizontal">
             <ul>
                 <li><a href="index.php">INICIO</a></li>
-                <li><a href="">EXERCICIOS</a></li>
+                <li class="dropdown">
+                    <a href="">EXERCICIOS</a>
+                <ul class="submenu">
+                    <li><a href="">Academia</a></li>
+                    <li><a href="">Peso Corporal</a></li>
+                </ul>
+                </li>
                 <li><a href="">TREINOS</a></li>
                 <li><a href="view/nutricao.php">NUTRIÇÃO</a></li>
                 <li><a href="view/login.php">SOBRE NÓS</a></li>
@@ -83,11 +89,10 @@
             </section>
              <a href="view/login.php" class="banner-barra-btn">CRIAR CONTA</a>
 </section>
-
+        <!-- *********************************************************** -->
         <footer>
     
             <section class="footer-links">
-    
                 <section class="navegacao">
                     <h3>NAVEGAÇÃO</h3>
                     <a href="#">Início</a>
@@ -95,8 +100,7 @@
                     <a href="#">Treinos</a>
                     <a href="#">Nutrição</a>
                 </section>
-    
-    
+
                 <section class="modalidade">
                     <h3>MODALIDADES</h3>
                     <a href="#">Peso Corporal</a>
@@ -104,7 +108,7 @@
                     <a href="#">Mobilidade</a>
                     <a href="#">Alongamento</a>
                 </section>
-    
+
                 <section class="contato">
                     <h3>CONTATO</h3>
                     <p>techfit@email.com.br</p>
@@ -131,15 +135,13 @@
                     </section>
                 </section>
             </section>
-    
-    
+
             <section class="copyright">
                 <img src="assets/img/logo.png" alt="logo techfit">
                 <p>© 2026 TECHFIT - Todos os direitos reservados.</p>
             </section>
         </footer>
     </section>
-
 
 </body>
 </html>

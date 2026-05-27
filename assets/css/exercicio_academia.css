@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body{
+    background-color: #00060C;
+}
+
+/* HEADER */
+
+header{
+    background-color: #00060C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    height: 100px;
+
+    border-top: solid 2px #00AC;
+    border-bottom: solid 2px #00AC;
+}
+
+.logo img{
+    width: 300px;
+    margin-top: 20px;
+}
+
+.menu-horizontal ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+
+.menu-horizontal a{
+    text-decoration: none;
+}
+
+.menu-horizontal a:hover{
+    color: #00ACFE;
+}
+
+.botao-entrar button{
+    color: #00ACFE;
+    border: solid 2px #00ACFE;
+    background-color: transparent;
+
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: #07131f;
+    list-style: none;
+    padding: 10px 0;
+    min-width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+.dropdown{
+    position: relative;
+}
+
+/* itens do submenu */
+
+.submenu li{
+    padding:10px 20px;
+    display: block;
+}
+
+/* hover do dropdown */
+
+.dropdown:hover .submenu {
+    display: block; /* nunca flex, sempre block */
+}
+
+/* hover dos itens */
+
+.submenu li:hover{
+    background-color:#0d2235;
+}
+
+/* ======================================= */
+
+.banner-exercicios{
+
+    background-image: url("../img/banner_exercicios.png");
+
+    background-size: cover;
+    background-position: center;
+
+    height: 350px;
+
+    display: flex;
+    align-items: center;
+
+    padding-left: 100px;
+}
+
+.texto-banner{
+    max-width: 700px;
+}
+
+.texto-banner h1{
+    font-size: 60px;
+    line-height: 65px;
+}
+
+#destaque{
+    color: #006594;
+}
+
+.texto-banner p{
+    margin-top: 20px;
+    color: #CCCCCC;
+}
+
+/* ======================================= */
+
+.conteudo-exercicios{
+
+    display: flex;
+
+    gap: 30px;
+
+    padding: 40px 60px;
+}
+
+/* ======================================= */
+
+.filtro{
+
+    width: 250px;
+
+    border: solid 2px #00AC;
+
+    border-radius: 10px;
+
+    padding: 20px;
+
+    height: fit-content;
+}
+
+.filtro h2{
+    margin-bottom: 30px;
+}
+
+.filtro p{
+    margin-bottom: 15px;
+    color: #00ACFE;
+}
+
+.filtro button{
+
+    width: 100%;
+
+    margin-bottom: 10px;
+
+    padding: 10px;
+
+    background-color: #07131f;
+
+    border: solid 1px #00AC;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+.filtro button:hover{
+    background-color: #006594;
+}
+
+/* ======================================= */
+
+.lista-exercicios{
+    flex: 1;
+}
+
+.barra-pesquisa input{
+
+    width: 100%;
+
+    height: 45px;
+
+    background-color: #07131f;
+
+    border: solid 2px #00AC;
+
+    border-radius: 5px;
+
+    padding-left: 15px;
+
+    margin-bottom: 30px;
+}
+
+/* ======================================= */
+
+.cards-exercicios{
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 20px;
+}
+
+/* ======================================= */
+
+.card-exercicio{
+
+    width: 300px;
+
+    background-color: #07131f;
+
+    border: solid 2px #00AC;
+
+    border-radius: 10px;
+
+    overflow: hidden;
+
+    transition: 0.3s;
+}
+
+.card-exercicio:hover{
+    transform: translateY(-5px);
+    border-color: #00ACFE;
+}
+
+.card-exercicio img{
+
+    width: 100%;
+    height: 200px;
+
+    object-fit: cover;
+}
+
+.card-texto{
+    padding: 20px;
+}
+
+.card-texto h3{
+    margin-bottom: 10px;
+}
+
+.card-texto p{
+
+    color: #CCCCCC;
+
+    margin-bottom: 20px;
+}
+
+.card-texto a{
+
+    color: #00ACFE;
+
+    text-decoration: none;
+
+    font-weight: bold;
+}
