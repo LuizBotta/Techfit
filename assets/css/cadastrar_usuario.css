@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    color: rgb(255, 255, 255);
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #00060C;
+    padding: 0;
+    box-sizing: border-box;
+}
+footer{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+footer a:hover{
+    color: #00AEEF;
+}
+footer .footer-links{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding: 5px;
+    
+}
+footer .navegacao{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #006594;
+}
+footer .modalidade{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer .contato{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+footer .redes-sociais{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+footer .redes-sociais .item{
+    display: flex;
+    align-items: center; 
+    gap: 8px;
+}  
+footer .redes-sociais img{
+    width: 15px;
+    height: 15px;
+    margin: 3px;
+}
+.copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 30px;
+}
+
+.copyright::before,
+.copyright::after{
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: rgba(255,255,255,0.3);
+}
+.copyright img{
+    width:50px;
+    height: 50px;
+    margin-left: 2px;
+
+}
+header {
+    background-color: #00060C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    gap: 30px;
+    border-top:solid 2px #00AC;
+    border-bottom:solid 2px #00AC;
+
+}
+.submenu {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: #07131f;
+    list-style: none;
+    padding: 10px 0;
+    min-width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+.dropdown{
+    position: relative;
+}
+
+/* itens do submenu */
+
+.submenu li{
+    padding:10px 20px;
+    display: block;
+}
+
+/* hover do dropdown */
+
+.dropdown:hover .submenu {
+    display: block; /* nunca flex, sempre block */
+}
+
+/* hover dos itens */
+
+.submenu li:hover{
+    background-color:#0d2235;
+}
+
+.logo img{
+    width: 300px;
+    margin-top: 20px;
+}
+
+.menu-horizontal > ul {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+
+
+.menu-horizontal li{
+    padding: 20px;
+}
+
+.menu-horizontal a{
+    text-decoration: none;
+}
+
+.menu-horizontal a:hover{
+    color: #00ACFE;
+}
+
+
+.botao-entrar button{
+    color: #00ACFE;
+    border: solid 2px #00ACFE;
+    background-color: #00060C;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.botao-entrar button:hover{
+    background-color: #E5E5E5;
+}
+
+
+
+
+
+.pagina-fundo{
+    background-color: lightgray;
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.fundo-forms{
+    background-color: rgb(255, 255, 255);
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 6px;
+    margin-bottom: 30px;
+}
+
+.formulario h2{
+    color: rgb(225, 96, 61);
+    margin-left: 20%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input{
+    width: 60%;
+    margin-top: 30px;
+    padding: 10px;
+    padding-left: 40px;
+    border: 1px solid rgb(211, 211, 211);
+}
+
+.formulario h4{
+    color: rgb(225, 96, 61);
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cadastrar{
+    background-color: rgb(225, 96, 61);
+    width: 60%;
+    margin-left: 20%;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+.cadastrar p{
+    text-align: center;
+    color: rgb(255, 255, 255);
+
+}

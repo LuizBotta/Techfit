@@ -190,7 +190,7 @@ header{
 /* ======================================= */
 
 .banner-exercicios {
-    background-image: url("/Techfit/Techfit/assets/img/banner_exercicios_academia.png");
+    background-image: url("../../assets/img/banner_exercicios_academia.png");
     background-size: cover;
     background-position: center;
     height: 350px;
