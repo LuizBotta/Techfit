@@ -1,10 +1,4 @@
-<?php 
-
-    session_start();
-
-?>
-
-
+<?php session_start(); ?>
 
 <!DOCTYPE html>
 <html lang="pt-BR">
@@ -38,9 +32,14 @@
                 </ul>
             </section>
             
-            <section class="botao-entrar">
-                <button>ENTRAR</button> 
-            </section>
+        <section class="botao-entrar">
+            <?php if (isset($_SESSION["cliente_id"])): ?>
+                <section>Olá, <?= $_SESSION["cliente_nome"] ?></section>
+                <a href="logout.php"><button>SAIR</button></a>
+            <?php else: ?>
+                <button><a href="view/login.php">ENTRAR</a></button>
+            <?php endif; ?> 
+        </section>
     
     </header>
     
@@ -62,15 +61,15 @@
                                 <section class="genero-opcoes">
                                     <label class="radio-label">
                                         <input type="radio" name="inputSexo" value="feminino">
-                                        <span>Feminino</span>
+                                        <section>Feminino</section>
                                     </label>
                                     <label class="radio-label">
                                         <input type="radio" name="inputSexo" value="masculino">
-                                        <span>Masculino</span>
+                                        <section>Masculino</section>
                                     </label>
                                     <label class="radio-label">
                                         <input type="radio" name="inputSexo" value="nao informar">
-                                        <span>Prefiro não informar</span>
+                                        <section>Prefiro não informar</section>
                                     </label>
                                 </section>
                             </section>

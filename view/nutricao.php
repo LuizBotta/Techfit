@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -39,23 +40,15 @@
         </section>
 
         <section class="botao-entrar">
-            <button>ENTRAR</button>
+            <?php if (isset($_SESSION["cliente_id"])): ?>
+                <section>Olá, <?= $_SESSION["cliente_nome"] ?></section>
+                <a href="logout.php"><button>SAIR</button></a>
+            <?php else: ?>
+                <button><a href="view/login.php">ENTRAR</a></button>
+            <?php endif; ?> 
         </section>
 
     </header>
-
-    <!DOCTYPE html>
-    <html lang="pt-BR">
-
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="../assets/CSS/style.css">
-        <link rel="stylesheet" href="../assets/CSS/nutricao.css">
-        <title>Nutrição - TechFit</title>
-    </head>
-
-    <body>
 
         <section class="banner-nutricao">
             <img src="../assets/img/banner_nutricao.png" alt="Banner Nutrição" class="banner-nutricao-img">
@@ -217,6 +210,6 @@
             </section>
         </footer>
 
-    </body>
+</body>
 
-    </html>
+</html>

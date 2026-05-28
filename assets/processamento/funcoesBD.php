@@ -2,6 +2,7 @@
 
 function conectarBD(){
     $conexao = mysqli_connect("localhost", "root", "", "techfit");
+    mysqli_set_charset($conexao, "utf8");
     return $conexao;
 }
 
@@ -18,6 +19,22 @@ function buscarCliente($email, $senha){
     $resultado = mysqli_query($conexao, $consulta);
     return mysqli_fetch_assoc($resultado);
 }
+
+function atualizarSenha($email, $novaSenha){
+    $conexao  = conectarBD();
+    $consulta = "UPDATE cliente SET senha = '$novaSenha' WHERE email = '$email'";
+    mysqli_query($conexao, $consulta);
+}
+
+function inserirExercicio($nome, $grupoMuscular, $descricao, $imagem){
+    $conexao  = conectarBD();
+    $consulta = "INSERT INTO exercicios (nome, grupo_muscular, descricao, imagem) 
+                 VALUES ('$nome', '$grupoMuscular', '$descricao', '$imagem')";
+    mysqli_query($conexao, $consulta);
+}
+
+
+
 
 
 ?>
