@@ -16,7 +16,7 @@
     
             <section class="menu-horizontal">
                 <ul>
-                    <li><a href="index.php">INICIO</a></li>
+                    <li><a href="../index.php">INICIO</a></li>
                     <li class="dropdown">
                         <a href="">EXERCICIOS</a>
                     <ul class="submenu">
@@ -26,8 +26,8 @@
                     </ul>
                     </li>
                     <li><a href="">TREINOS</a></li>
-                    <li><a href="view/nutricao.php">NUTRIÇÃO</a></li>
-                    <li><a href="view/sobre_nos.php">SOBRE NÓS</a></li>
+                    <li><a href="nutricao.php">NUTRIÇÃO</a></li>
+                    <li><a href="sobre_nos.php">SOBRE NÓS</a></li>
                 </ul>
             </section>
             
@@ -36,7 +36,7 @@
                 <section>Olá, <?= $_SESSION["cliente_nome"] ?></section>
                 <a href="logout.php"><button>SAIR</button></a>
             <?php else: ?>
-                <button><a href="view/login.php">ENTRAR</a></button>
+                <button><a href="login.php">ENTRAR</a></button>
             <?php endif; ?> 
         </section>
     

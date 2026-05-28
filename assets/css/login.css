@@ -155,13 +155,20 @@ header {
 .botao-entrar button{
     color: #00ACFE;
     border: solid 2px #00ACFE;
-    background-color: #00060C;
+    background-color: transparent;
+    padding: 8px 15px;
     border-radius: 5px;
-    padding: 5px;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
 .botao-entrar button:hover{
-    background-color: #E5E5E5;
+    background-color: #00ACFE;
+    color: #00060C;
+}
+
+.botao-entrar a{
+    text-decoration: none;
 }
 
 

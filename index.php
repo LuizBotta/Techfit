@@ -4,8 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/CSS/style.css">
-    <title>Document</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Tela Inicial</title>
 </head>
@@ -34,16 +32,14 @@
         </section>
         
         <section class="botao-entrar">
-<<<<<<< HEAD
-            <button>ENTRAR</button> 
-=======
+
             <?php if (isset($_SESSION["cliente_id"])): ?>
                 <section>Olá, <?= $_SESSION["cliente_nome"] ?></section>
                 <a href="logout.php"><button>SAIR</button></a>
             <?php else: ?>
                 <button><a href="view/login.php">ENTRAR</a></button>
             <?php endif; ?> 
->>>>>>> 909a6fa1ff40715c76328c2807f44fb9f6e97e0f
+
         </section>
 
     </header>
@@ -82,7 +78,7 @@
             </section>
             
             <section class="modalidade-card">
-                <a href="" ><img src="assets/img/alongamento.png" alt="Rapaz fazendo alongamento"> </a>
+                <a href="view/exercicios_alongamento.php" ><img src="assets/img/alongamento.png" alt="Rapaz fazendo alongamento"> </a>
                 <p>Alongamento</p>
             </section>
     </section>
