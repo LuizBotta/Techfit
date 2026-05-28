@@ -38,7 +38,13 @@ while ($row = mysqli_fetch_assoc($resultado)) {
                     <li><a href="visualizar_exercicios.php">Todos os Exercícios</a></li>
                 </ul>
             </li>
-            <li><a href="">TREINOS</a></li>
+            <li class="dropdown">
+                    <a href="">TREINOS</a>
+                    <ul class="submenu">
+                        <li><a href="montar_treino.php">Montar Treino</a></li>
+                        <li><a href="visualizar_exercicios.php">Ver Treinos</a></li>
+                    </ul>
+                </li>
             <li><a href="nutricao.php">NUTRIÇÃO</a></li>
             <li><a href="sobre_nos.php">SOBRE NÓS</a></li>
         </ul>
