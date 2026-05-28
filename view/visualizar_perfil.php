@@ -23,47 +23,7 @@ $cliente  = mysqli_fetch_assoc($resultado);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assets/css/cadastrar_usuario.css">
     <title>Meu Perfil</title>
-    <style>
-        .perfil-info {
-            display: flex;
-            flex-direction: column;
-            gap: 12px;
-            margin-top: 10px;
-        }
-        .perfil-campo {
-            background-color: #07131f;
-            border: 1px solid #00ACFE55;
-            border-radius: 8px;
-            padding: 12px 16px;
-        }
-        .perfil-campo span {
-            display: block;
-            font-size: 11px;
-            color: #aaa;
-            margin-bottom: 4px;
-            text-transform: uppercase;
-        }
-        .perfil-campo p {
-            color: white;
-            font-size: 15px;
-        }
-        .perfil-avatar {
-            width: 80px;
-            height: 80px;
-            border-radius: 50%;
-            background-color: #006594;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 32px;
-            font-weight: bold;
-            color: white;
-            margin: 0 auto 20px auto;
-        }
-        .fundo-forms {
-            width: 450px !important;
-        }
-    </style>
+
 </head>
 <body>
     <header>
@@ -83,9 +43,17 @@ $cliente  = mysqli_fetch_assoc($resultado);
                         <li><a href="visualizar_exercicios.php">Todos os Exercícios</a></li>
                     </ul>
                 </li>
-                <li><a href="">TREINOS</a></li>
+                <li class="dropdown">
+                    <a href="">TREINOS</a>
+                    <ul class="submenu">
+                        <li><a href="montar_treino.php">Montar Treino</a></li>
+                        <li><a href="visualizar_exercicios.php">Ver Treinos</a></li>
+                        <li><a href="registro_carga.php">Registro de Cargas</a></li>
+                    </ul>
+                </li>
                 <li><a href="nutricao.php">NUTRIÇÃO</a></li>
                 <li><a href="sobre_nos.php">SOBRE NÓS</a></li>
+                </li>
             </ul>
         </section>
 

@@ -41,6 +41,7 @@ $treino     = buscarTreinoUsuario($_SESSION["cliente_id"]);
             <li><a href="montar_treino.php">TREINOS</a></li>
             <li><a href="nutricao.php">NUTRIÇÃO</a></li>
             <li><a href="sobre_nos.php">SOBRE NÓS</a></li>
+
         </ul>
     </section>
     <section class="botao-entrar">

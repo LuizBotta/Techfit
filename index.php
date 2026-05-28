@@ -28,8 +28,9 @@
                 <li class="dropdown">
                     <a href="">TREINOS</a>
                     <ul class="submenu">
-                        <li><a href="montar_treino.php">Montar Treino</a></li>
-                        <li><a href="visualizar_exercicios.php">Ver Treinos</a></li>
+                        <li><a href="view/montar_treino.php">Montar Treino</a></li>
+                        <li><a href="view/visualizar_exercicios.php">Ver Treinos</a></li>
+                        <li><a href="view/registro_carga.php">Registro de Cargas</a></li>
                     </ul>
                 </li>
                 <li><a href="view/nutricao.php">NUTRIÇÃO</a></li>

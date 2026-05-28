@@ -5,7 +5,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link rel="stylesheet" href="../assets/css/exercicios_peso_corporal.css">
 
     <title>Exercícios Peso Corporal</title>
@@ -37,6 +36,7 @@
                     <ul class="submenu">
                         <li><a href="montar_treino.php">Montar Treino</a></li>
                         <li><a href="visualizar_exercicios.php">Ver Treinos</a></li>
+                        <li><a href="registro_carga.php">Registro de Cargas</a></li>
                     </ul>
                 </li>
             <li><a href="nutricao.php">NUTRIÇÃO</a></li>
