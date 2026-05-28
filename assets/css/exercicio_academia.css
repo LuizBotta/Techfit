@@ -370,3 +370,214 @@ header{
 
     font-weight: bold;
 }
+.conteudo-treino {
+            display: flex;
+            gap: 30px;
+            padding: 40px 60px;
+        }
+.painel-adicionar {
+            width: 350px;
+            background-color: #07131f;
+            border: solid 2px #00AC;
+            border-radius: 10px;
+            padding: 25px;
+            height: fit-content;
+        }
+.painel-adicionar h2 {
+            margin-bottom: 20px;
+            color: #00ACFE;
+        }
+.painel-adicionar select,
+.painel-adicionar input[type="number"] {
+            width: 100%;
+            margin-top: 10px;
+            padding: 10px 14px;
+            background-color: #0d2235;
+            border: 1px solid #00ACFE55;
+            border-radius: 8px;
+            color: white;
+            font-size: 14px;
+        }
+.painel-adicionar label {
+            display: block;
+            font-size: 12px;
+            color: #aaa;
+            margin-top: 14px;
+            margin-bottom: 2px;
+        }
+.btn-adicionar {
+            width: 100%;
+            margin-top: 20px;
+            padding: 12px;
+            background-color: #006594;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 15px;
+            text-transform: uppercase;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+.btn-adicionar:hover {
+            background-color: #00ACFE;
+        }
+.painel-treino {
+            flex: 1;
+        }
+.painel-treino h2 {
+            margin-bottom: 20px;
+            color: #00ACFE;
+        }
+.tabela-treino {
+            width: 100%;
+            border-collapse: collapse;
+        }
+.tabela-treino th {
+            background-color: #07131f;
+            padding: 12px 16px;
+            text-align: left;
+            border-bottom: 2px solid #00ACFE55;
+            color: #00ACFE;
+            font-size: 13px;
+            text-transform: uppercase;
+        }
+.tabela-treino td {
+            padding: 12px 16px;
+            border-bottom: 1px solid #00ACFE22;
+            font-size: 14px;
+            color: #ccc;
+        }
+.tabela-treino tr:hover td {
+            background-color: #07131f;
+        }
+.btn-remover {
+            background-color: transparent;
+            border: 1px solid #ff4444;
+            color: #ff4444;
+            padding: 5px 12px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 12px;
+            transition: 0.3s;
+        }
+.btn-remover:hover {
+            background-color: #ff4444;
+            color: white;
+        }
+.vazio {
+            color: #aaa;
+            text-align: center;
+            padding: 40px;
+        }
+.msg-sucesso {
+            background-color: #0d4a1f;
+            border: 1px solid #00ff6a;
+            color: #00ff6a;
+            padding: 10px 16px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            font-size: 14px;
+        }
+.msg-erro {
+            background-color: #4a0d0d;
+            border: 1px solid #ff4444;
+            color: #ff4444;
+            padding: 10px 16px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            font-size: 14px;
+        }
+
+
+
+        .conteudo-carga {
+            display: flex;
+            gap: 30px;
+            padding: 40px 60px;
+        }
+        .painel-registrar {
+            width: 350px;
+            background-color: #07131f;
+            border: solid 2px #00AC;
+            border-radius: 10px;
+            padding: 25px;
+            height: fit-content;
+        }
+        .painel-registrar h2 {
+            margin-bottom: 20px;
+            color: #00ACFE;
+        }
+        .painel-registrar select,
+        .painel-registrar input[type="number"],
+        .painel-registrar input[type="date"] {
+            width: 100%;
+            margin-top: 10px;
+            padding: 10px 14px;
+            background-color: #0d2235;
+            border: 1px solid #00ACFE55;
+            border-radius: 8px;
+            color: white;
+            font-size: 14px;
+        }
+        .painel-registrar label {
+            display: block;
+            font-size: 12px;
+            color: #aaa;
+            margin-top: 14px;
+            margin-bottom: 2px;
+        }
+        .btn-registrar {
+            width: 100%;
+            margin-top: 20px;
+            padding: 12px;
+            background-color: #006594;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 15px;
+            text-transform: uppercase;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .btn-registrar:hover { background-color: #00ACFE; }
+        .painel-historico { flex: 1; }
+        .painel-historico h2 { margin-bottom: 20px; color: #00ACFE; }
+        .tabela-historico {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .tabela-historico th {
+            background-color: #07131f;
+            padding: 12px 16px;
+            text-align: left;
+            border-bottom: 2px solid #00ACFE55;
+            color: #00ACFE;
+            font-size: 13px;
+            text-transform: uppercase;
+        }
+        .tabela-historico td {
+            padding: 12px 16px;
+            border-bottom: 1px solid #00ACFE22;
+            font-size: 14px;
+            color: #ccc;
+        }
+        .tabela-historico tr:hover td { background-color: #07131f; }
+        .vazio { color: #aaa; text-align: center; padding: 40px; }
+        .msg-sucesso {
+            background-color: #0d4a1f;
+            border: 1px solid #00ff6a;
+            color: #00ff6a;
+            padding: 10px 16px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            font-size: 14px;
+        }
+        .msg-erro {
+            background-color: #4a0d0d;
+            border: 1px solid #ff4444;
+            color: #ff4444;
+            padding: 10px 16px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            font-size: 14px;
+        }

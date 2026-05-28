@@ -8,7 +8,6 @@ $grupoMuscular = $_POST["inputGrupoMuscular"];
 $descricao     = $_POST["inputDescricao"];
 $imagem        = null;
 
-
 if (!empty($_FILES["inputImagem"]["name"])) {
 
     $nomeArquivo  = basename($_FILES["inputImagem"]["name"]);
@@ -20,13 +19,13 @@ if (!empty($_FILES["inputImagem"]["name"])) {
         die();
     }
 
-    $nomeUnico  = uniqid("exercicio_") . "." . $extensao;
-    $destino    = $_SERVER['DOCUMENT_ROOT'] . "/projeto_eletiva/techfit/Techfit/assets/img/exercicios/" . $nomeUnico;
+    $nomeUnico = uniqid("exercicio_") . "." . $extensao;
+    $pasta     = "C:/xampp/htdocs/projeto_eletiva/techfit/Techfit/assets/img/exercicios/";
+    $destino   = $pasta . $nomeUnico;
 
-    // Cria a pasta se não existir
-    if (!is_dir($_SERVER['DOCUMENT_ROOT'] . "/projeto_eletiva/techfit/Techfit/assets/img/exercicios/")) {
-    mkdir($_SERVER['DOCUMENT_ROOT'] . "/projeto_eletiva/techfit/Techfit/assets/img/exercicios/", 0755, true);
-}
+    if (!is_dir($pasta)) {
+        mkdir($pasta, 0755, true);
+    }
 
     if (move_uploaded_file($_FILES["inputImagem"]["tmp_name"], $destino)) {
         $imagem = "../assets/img/exercicios/" . $nomeUnico;

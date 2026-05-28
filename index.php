@@ -35,7 +35,9 @@
         
         <section class="botao-entrar">
             <?php if (isset($_SESSION["cliente_id"])): ?>
-                <section>Olá, <?= $_SESSION["cliente_nome"] ?></section>
+                <a href="view/visualizar_perfil.php" style="text-decoration:none;">
+                    <section>Olá, <?= $_SESSION["cliente_nome"] ?></section>
+                </a>
                 <a href="logout.php"><button>SAIR</button></a>
             <?php else: ?>
                 <button><a href="view/login.php">ENTRAR</a></button>
