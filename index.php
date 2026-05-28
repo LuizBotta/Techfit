@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -33,7 +34,16 @@
         </section>
         
         <section class="botao-entrar">
+<<<<<<< HEAD
             <button>ENTRAR</button> 
+=======
+            <?php if (isset($_SESSION["cliente_id"])): ?>
+                <section>Olá, <?= $_SESSION["cliente_nome"] ?></section>
+                <a href="logout.php"><button>SAIR</button></a>
+            <?php else: ?>
+                <button><a href="view/login.php">ENTRAR</a></button>
+            <?php endif; ?> 
+>>>>>>> 909a6fa1ff40715c76328c2807f44fb9f6e97e0f
         </section>
 
     </header>

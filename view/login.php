@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -30,9 +31,14 @@
                 </ul>
             </section>
             
-            <section class="botao-entrar">
-                <button>ENTRAR</button> 
-            </section>
+        <section class="botao-entrar">
+            <?php if (isset($_SESSION["cliente_id"])): ?>
+                <section>Olá, <?= $_SESSION["cliente_nome"] ?></section>
+                <a href="logout.php"><button>SAIR</button></a>
+            <?php else: ?>
+                <button><a href="view/login.php">ENTRAR</a></button>
+            <?php endif; ?> 
+        </section>
     
     </header>
     
@@ -51,7 +57,7 @@
                             <input id="botao" type="submit" value="Entrar">
                         </form>
                         <section class="recuperar-senha">
-                            <a href=""><p>Esqueceu a senha?</p></a>
+                            <p>Esqueceu sua senha? <a href="recuperar_senha.php">Clique aqui</a></p>
                         </section>
                     </section>
                 </section>
