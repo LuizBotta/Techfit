@@ -1,10 +1,18 @@
+<?php 
+
+    session_start();
+
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../assets/css/login.css">
-    <title>Login</title>
+    <link rel="stylesheet" href="../assets/css/cadastrar_usuario.css">
+    <title>Cadastro</title>
 </head>
 <body>
     <header> 
@@ -19,8 +27,9 @@
                     <li class="dropdown">
                         <a href="">EXERCICIOS</a>
                     <ul class="submenu">
-                        <li><a href="">Academia</a></li>
-                        <li><a href="">Peso Corporal</a></li>
+                        <li><a href="exercicios_academia.php">Academia</a></li>
+                        <li><a href="exercicios_peso_corporal.php">Peso Corporal</a></li>
+                        <li><a href="exercicios_alongamento.php">Alongamento</a></li>
                     </ul>
                     </li>
                     <li><a href="">TREINOS</a></li>
@@ -35,33 +44,48 @@
     
     </header>
     
-    <section class="pagina-fundo">
-        <section class="fundo-forms">   
-            <section class="formulario">
-                <h2>Cadastrar Cliente</h2>
-                <form>
-                    <input type="text" placeholder="Nome" name="nome">
-                    <input type="text" placeholder="Sobrenome" name="sobrenome">
-                    <input type="text" placeholder="CPF" name="cpf">
-                    <input type="date" name="dataNasc">
-                    <input type="tel" placeholder="Telefone" name="telefone">
-                    <input type="email" placeholder="E-mail" name="email">
-                    <input type="password" placeholder="Senha" name="senha">
-                </form>
-                <section class="arquivo">
-                    <form >
-                        <label for="file-upload" class="custom-file-upload">Escolher Arquivo</label>
-                        <input id="file-upload" type="file" style="display:none;" name="arquivo"/>
-                    </form>
-                    <section id="file-name">Nenhum arquivo escolhido</section>
-                </section>
-                <section class="cadastrar">
-                    <p>CADASTRAR</p>
-                </section>
+    <section class="banner">
+            <section class="texto-banner">
+                <section class="fundo-forms">   
+                    <section class="formulario">
+                        <h2>CADASTRO</h2>
+                        <form method="POST" action="../assets/processamento/processamento_cadastro.php">
+                            <!-- Dados pessoais -->
+                            <input type="text" placeholder="Nome" name="inputNome" required>
+                            <input type="number" placeholder="Altura" step="0.01" min="0" name="inputAltura" required>
+                            <input type="number" placeholder="Peso(Kg)" step="0.01" min="0" name="inputPeso" required>
+                            <label class="label-nascimento" for="nascimento">Selecione sua data de nascimento:</label>
+                            <input type="date" name="inputDataNascimento" required>
+                            <!-- escolha de gênero-->
+                            <section class="genero-grupo">
+                                <label class="label-genero">Gênero:</label>
+                                <section class="genero-opcoes">
+                                    <label class="radio-label">
+                                        <input type="radio" name="inputSexo" value="feminino">
+                                        <span>Feminino</span>
+                                    </label>
+                                    <label class="radio-label">
+                                        <input type="radio" name="inputSexo" value="masculino">
+                                        <span>Masculino</span>
+                                    </label>
+                                    <label class="radio-label">
+                                        <input type="radio" name="inputSexo" value="nao informar">
+                                        <span>Prefiro não informar</span>
+                                    </label>
+                                </section>
+                            </section>
+                            <!-- informações de login  -->
+                            <input type="text" placeholder="Tel" name="inputTel">
+                            <input type="text" placeholder="E-mail" name="inputEmail">
+                            <input type="password" placeholder="Senha" name="inputSenha">
+                            <input id="botao" type="submit" value="Cadastrar">
+                        </form>
+                    </section>
                 </section>
             </section>
-        </section>
     </section>
+    
+    
     
     
     
@@ -80,7 +104,6 @@
                     <h3>MODALIDADES</h3>
                     <a href="#">Peso Corporal</a>
                     <a href="#">Musculação</a>
-                    <a href="#">Mobilidade</a>
                     <a href="#">Alongamento</a>
                 </section>
 

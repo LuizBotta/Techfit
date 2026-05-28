@@ -41,13 +41,15 @@
                 <section class="fundo-forms">   
                     <section class="formulario">
                         <h2>Login</h2>
-                        <form>
-                            <input type="email" placeholder="E-mail" name="email">
-                            <input type="password" placeholder="Senha" name="senha">
+                        <?php if (isset($_GET["erro"])): ?>
+                            <p id="erro">E-mail ou senha incorretos.</p>
+                        <?php endif; ?>
+
+                        <form method="POST" action="../assets/processamento/processamento_login.php">
+                            <input type="email" placeholder="E-mail" name="inputEmail" required>
+                            <input type="password" placeholder="Senha" name="inputSenha" required>
+                            <input id="botao" type="submit" value="Entrar">
                         </form>
-                        <section class="cadastrar">
-                            <p>Entrar</p>
-                        </section>
                         <section class="recuperar-senha">
                             <a href=""><p>Esqueceu a senha?</p></a>
                         </section>

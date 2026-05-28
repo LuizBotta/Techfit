@@ -223,18 +223,23 @@ form input::placeholder {
     color: #aaa;
 }
 
-.cadastrar {
+#botao {
     background-color: #006594;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
     width: 100%;
-    margin-left: 0;
-    padding: 12px;
-    margin-top: 30px;
-    border-radius: 8px;
+    text-transform: uppercase;
     cursor: pointer;
+    padding: 12px;
+    margin-top: 20px;
+    border-radius: 8px;
     transition: background-color 0.3s;
+    text-align: center;
+    display: block;
+
 }
 
-.cadastrar:hover {
+#botao:hover {
     background-color: #00ACFE;
 }
 
@@ -253,6 +258,10 @@ form input::placeholder {
     text-decoration: none;
   color: inherit;
 }
-.recuperar-senha:hover p{
+.recuperar-senha:hover {
     color:#006594;
+}
+
+#erro{
+    color:rgb(255, 0, 0);
 }

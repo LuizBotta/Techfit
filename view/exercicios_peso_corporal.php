@@ -1,3 +1,11 @@
+<?php
+session_start();
+if (!isset($_SESSION["cliente_id"])) {
+    header('Location: view/login.php');
+    die();
+}
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
