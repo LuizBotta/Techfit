@@ -26,7 +26,13 @@
                         <li><a href="exercicios_alongamento.php">Alongamento</a></li>
                     </ul>
                     </li>
-                    <li><a href="">TREINOS</a></li>
+                    <li class="dropdown">
+                    <a href="">TREINOS</a>
+                    <ul class="submenu">
+                        <li><a href="montar_treino.php">Montar Treino</a></li>
+                        <li><a href="visualizar_exercicios.php">Ver Treinos</a></li>
+                    </ul>
+                </li>
                     <li><a href="view/nutricao.php">NUTRIÇÃO</a></li>
                     <li><a href="view/login.php">SOBRE NÓS</a></li>
                 </ul>
@@ -37,7 +43,7 @@
                 <section>Olá, <?= $_SESSION["cliente_nome"] ?></section>
                 <a href="logout.php"><button>SAIR</button></a>
             <?php else: ?>
-                <button><a href="view/login.php">ENTRAR</a></button>
+                <button><a href="login.php">ENTRAR</a></button>
             <?php endif; ?> 
         </section>
     

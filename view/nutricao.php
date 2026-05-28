@@ -3,14 +3,13 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="../assets/css/nutricao.css">
-
-    <title>Exercícios Peso Corporal</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../assets/CSS/nutricao.css">
+        <title>Nutrição</title>
+    </head>
 </head>
-
 <body>
 
     <header>
@@ -33,9 +32,15 @@
                     </ul>
                 </li>
 
-                <li><a href="">TREINOS</a></li>
-                <li><a href="">NUTRIÇÃO</a></li>
-                <li><a href="">SOBRE NÓS</a></li>
+                <li class="dropdown">
+                    <a href="">TREINOS</a>
+                    <ul class="submenu">
+                        <li><a href="montar_treino.php">Montar Treino</a></li>
+                        <li><a href="visualizar_exercicios.php">Ver Treinos</a></li>
+                    </ul>
+                </li>
+                <li><a href="nutricao.php">NUTRIÇÃO</a></li>
+                <li><a href="sobre_nos.php">SOBRE NÓS</a></li>
             </ul>
         </section>
 
@@ -44,7 +49,7 @@
                 <section>Olá, <?= $_SESSION["cliente_nome"] ?></section>
                 <a href="logout.php"><button>SAIR</button></a>
             <?php else: ?>
-                <button><a href="view/login.php">ENTRAR</a></button>
+                <button><a href="login.php">ENTRAR</a></button>
             <?php endif; ?> 
         </section>
 
@@ -93,7 +98,6 @@
 
         <section class="refeicoes-dicas">
 
-            <!-- REFEIÇÕES -->
             <section class="refeicoes">
                 <h2 class="secao-titulo">REFEIÇÕES FITNESS</h2>
 

@@ -1,13 +1,12 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="../assets/css/sobre_nos.css">
-
+    <link rel="stylesheet" href="../assets/CSS/sobre_nos.css">
     <title>Sobre Nós</title>
-</head> 
+</head>
 <body>
 
 <header> 
@@ -30,28 +29,28 @@
                 </ul>
             </li>
 
-            <li><a href="">TREINOS</a></li>
+            <li class="dropdown">
+                    <a href="">TREINOS</a>
+                    <ul class="submenu">
+                        <li><a href="montar_treino.php">Montar Treino</a></li>
+                        <li><a href="visualizar_exercicios.php">Ver Treinos</a></li>
+                    </ul>
+                </li>
             <li><a href="nutricao.php">NUTRIÇÃO</a></li>
-            <li><a href="">SOBRE NÓS</a></li>
+            <li><a href="sobre_nos.php">SOBRE NÓS</a></li>
         </ul>
     </section>
 
     <section class="botao-entrar">
-        <button>ENTRAR</button> 
+        <?php if (isset($_SESSION["cliente_id"])): ?>
+            <section>Olá, <?= $_SESSION["cliente_nome"] ?></section>
+            <a href="../logout.php"><button>SAIR</button></a>
+        <?php else: ?>
+            <a href="login.php"><button>ENTRAR</button></a>
+        <?php endif; ?>
     </section>
 
 </header>
-
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../assets/CSS/style.css">
-    <link rel="stylesheet" href="../assets/CSS/sobre_nos.css">
-    <title>Sobre Nós - TechFit</title>
-</head>
-<body>
 
     <section class="banner-sobre">
         <img src="../assets/img/banner_sobre.png" alt="Banner Sobre Nós" class="banner-sobre-img">
@@ -79,41 +78,26 @@
             <img src="../assets/img/academia.png" alt="Academia TechFit">
         </section>
 
-    </section>
-
-    </section>
-
-
-    <section class="equipe-numeros">
-
-        <section class="equipe">
-            <h2 class="secao-titulo-lateral">NOSSA EQUIPE</h2>
-
+        <section class="historia-equipe">
+            <h2 class="secao-titulo">NOSSA EQUIPE</h2>
             <section class="cards-equipe">
-
                 <section class="equipe-card">
                     <img src="../assets/img/nos-ai.jpeg" alt="Nós">
                     <p class="equipe-nome">Pablo e Luiz</p>
                     <p class="equipe-cargo">Criadores do site</p>
                 </section>
-
             </section>
         </section>
-    </section>
 
     </section>
 
     <section class="banner-barra">
-        <section class="banner-barra-fallback"></section>
         <section class="banner-barra-texto">
             <p class="banner-barra-titulo">FAÇA PARTE DA NOSSA MISSÃO</p>
             <p class="banner-barra-subtitulo">Juntos, vamos mais longe. Seu melhor começa agora!</p>
         </section>
-        <a href="login.php" class="banner-barra-btn">CRIAR CONTA</a>
+        <a href="cadastro_usuario.php" class="banner-barra-btn">CRIAR CONTA</a>
     </section>
-
-</body>
-</html>
 
 <footer>
     
@@ -164,7 +148,7 @@
                 <img src="../assets/img/logo.png" alt="logo techfit">
                 <p>© 2026 TECHFIT - Todos os direitos reservados.</p>
             </section>
-        </footer>
+</footer>
 
 </body>
 </html>

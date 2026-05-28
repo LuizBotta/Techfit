@@ -4,8 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/CSS/style.css">
-    <title>Document</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Tela Inicial</title>
 </head>
@@ -27,13 +25,20 @@
                     <li><a href="view/exercicios_alongamento.php">Alongamento</a></li>
                 </ul>
                 </li>
-                <li><a href="">TREINOS</a></li>
+                <li class="dropdown">
+                    <a href="">TREINOS</a>
+                    <ul class="submenu">
+                        <li><a href="montar_treino.php">Montar Treino</a></li>
+                        <li><a href="visualizar_exercicios.php">Ver Treinos</a></li>
+                    </ul>
+                </li>
                 <li><a href="view/nutricao.php">NUTRIÇÃO</a></li>
                 <li><a href="view/sobre_nos.php">SOBRE NÓS</a></li>
             </ul>
         </section>
         
         <section class="botao-entrar">
+
             <?php if (isset($_SESSION["cliente_id"])): ?>
                 <a href="view/visualizar_perfil.php" style="text-decoration:none;">
                     <section>Olá, <?= $_SESSION["cliente_nome"] ?></section>
@@ -42,6 +47,7 @@
             <?php else: ?>
                 <button><a href="view/login.php">ENTRAR</a></button>
             <?php endif; ?> 
+
         </section>
 
     </header>
@@ -80,12 +86,7 @@
             </section>
             
             <section class="modalidade-card">
-                <a href="" ><img src="assets/img/mobilidade.png" alt="Rapaz fazendo mobilidade"> </a>
-                <p>Mobilidade</p>
-            </section>
-            
-            <section class="modalidade-card">
-                <a href="" ><img src="assets/img/alongamento.png" alt="Rapaz fazendo alongamento"> </a>
+                <a href="view/exercicios_alongamento.php" ><img src="assets/img/alongamento.png" alt="Rapaz fazendo alongamento"> </a>
                 <p>Alongamento</p>
             </section>
     </section>
@@ -96,7 +97,7 @@
                 <p class="banner-barra-titulo">PRONTO PARA TRANSFORMAR SEU CORPO?</p>
                 <p class="banner-barra-subtitulo">Crie sua conta e tenha acesso a treinos, planos e muito mais!</p>
             </section>
-             <a href="view/login.php" class="banner-barra-btn">CRIAR CONTA</a>
+             <a href="view/cadastro_usuario.php" class="banner-barra-btn">CRIAR CONTA</a>
 </section>
         <!-- *********************************************************** -->
         <footer>
