@@ -57,10 +57,6 @@
 
     <body>
 
-        <!-- ========================================================= -->
-        <!-- BANNER -->
-        <!-- ========================================================= -->
-
         <section class="banner-nutricao">
             <img src="../assets/img/banner_nutricao.png" alt="Banner Nutrição" class="banner-nutricao-img">
             <section class="banner-nutricao-overlay"></section>
@@ -73,10 +69,6 @@
                 <button>COMEÇAR AGORA</button>
             </section>
         </section>
-
-        <!-- ========================================================= -->
-        <!-- OBJETIVOS NUTRICIONAIS -->
-        <!-- ========================================================= -->
 
         <section class="objetivos">
             <h2 class="secao-titulo">OBJETIVOS NUTRICIONAIS</h2>
@@ -105,10 +97,6 @@
 
             </section>
         </section>
-
-        <!-- ========================================================= -->
-        <!-- REFEIÇÕES FITNESS + DICAS NUTRICIONAIS -->
-        <!-- ========================================================= -->
 
         <section class="refeicoes-dicas">
 
@@ -148,7 +136,6 @@
                 </section>
             </section>
 
-            <!-- DICAS -->
             <section class="dicas">
                 <h2 class="secao-titulo">DICAS NUTRICIONAIS</h2>
 

@@ -42,8 +42,6 @@
 
 </header>
 
-<!-- ================================================= -->
-
 <section class="banner-exercicios">
 
     <section class="texto-banner">
@@ -64,7 +62,6 @@
 <section class="modalidades">   
             <h1>Exercicios</h1>
         </section>
-<!-- ================================================= -->
 
 <section class="conteudo-exercicios">
 
@@ -83,7 +80,6 @@
 
     </section>
 
-    <!-- ============================================= -->
 
     <section class="lista-exercicios">
 
@@ -92,8 +88,6 @@
             <input type="text" placeholder="Buscar exercício...">
 
         </section>
-
-        <!-- cards -->
 
         <section class="cards-exercicios">
 
@@ -116,7 +110,6 @@
 
             </section>
 
-            <!-- ========================== -->
 
             <section class="card-exercicio">
 
@@ -137,8 +130,6 @@
 
             </section>
 
-            <!-- ========================== -->
-
             <section class="card-exercicio">
 
                 <img src="../assets/img/remada.png" alt="Remada">
@@ -157,8 +148,6 @@
                 </section>
 
             </section>
-
-            <!-- ========================== -->
 
             <section class="card-exercicio">
 

@@ -41,9 +41,6 @@
     </section>
 
 </header>
-
-<!-- ================================================= -->
-
 <section class="banner-exercicios">
 
     <section class="texto-banner">
@@ -64,7 +61,6 @@
 <section class="modalidades">   
             <h1>Exercicios</h1>
         </section>
-<!-- ================================================= -->
 
 <section class="conteudo-exercicios">
 
@@ -82,8 +78,6 @@
         <button>Tríceps</button>
 
     </section>
-
-    <!-- ============================================= -->
 
     <section class="lista-exercicios">
 
@@ -116,8 +110,6 @@
 
             </section>
 
-            <!-- ========================== -->
-
             <section class="card-exercicio">
 
                 <img src="../assets/img/barra_fixa.png" alt="Barra Fixa">
@@ -137,8 +129,6 @@
 
             </section>
 
-            <!-- ========================== -->
-
             <section class="card-exercicio">
 
                 <img src="../assets/img/muscle.png" alt="Muscle Up">
@@ -157,8 +147,6 @@
                 </section>
 
             </section>
-
-            <!-- ========================== -->
 
             <section class="card-exercicio">
 

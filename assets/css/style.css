@@ -112,20 +112,15 @@ header {
     position: relative;
 }
 
-/* itens do submenu */
-
 .submenu li{
     padding:10px 20px;
     display: block;
 }
 
-/* hover do dropdown */
-
 .dropdown:hover .submenu {
-    display: block; /* nunca flex, sempre block */
+    display: block; 
 }
 
-/* hover dos itens */
 
 .submenu li:hover{
     background-color:#0d2235;
@@ -166,7 +161,6 @@ header {
 .botao-entrar button:hover{
     background-color: #E5E5E5;
 }
-
 .banner{
     background-image: url("../img/banner.png");
     background-size: cover;
