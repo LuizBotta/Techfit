@@ -39,7 +39,7 @@ if (!isset($_SESSION["cliente_id"])) {
             </li>
 
             <li><a href="">TREINOS</a></li>
-            <li><a href="">NUTRIÇÃO</a></li>
+            <li><a href="nutricao.php">NUTRIÇÃO</a></li>
             <li><a href="">SOBRE NÓS</a></li>
         </ul>
     </section>
@@ -49,9 +49,6 @@ if (!isset($_SESSION["cliente_id"])) {
     </section>
 
 </header>
-
-<!-- ================================================= -->
-
 <section class="banner-exercicios">
 
     <section class="texto-banner">
@@ -72,7 +69,6 @@ if (!isset($_SESSION["cliente_id"])) {
 <section class="modalidades">   
             <h1>Exercicios</h1>
         </section>
-<!-- ================================================= -->
 
 <section class="conteudo-exercicios">
 
@@ -90,8 +86,6 @@ if (!isset($_SESSION["cliente_id"])) {
         <button>Tríceps</button>
 
     </section>
-
-    <!-- ============================================= -->
 
     <section class="lista-exercicios">
 
@@ -124,8 +118,6 @@ if (!isset($_SESSION["cliente_id"])) {
 
             </section>
 
-            <!-- ========================== -->
-
             <section class="card-exercicio">
 
                 <img src="../assets/img/barra_fixa.png" alt="Barra Fixa">
@@ -145,8 +137,6 @@ if (!isset($_SESSION["cliente_id"])) {
 
             </section>
 
-            <!-- ========================== -->
-
             <section class="card-exercicio">
 
                 <img src="../assets/img/muscle.png" alt="Muscle Up">
@@ -165,8 +155,6 @@ if (!isset($_SESSION["cliente_id"])) {
                 </section>
 
             </section>
-
-            <!-- ========================== -->
 
             <section class="card-exercicio">
 

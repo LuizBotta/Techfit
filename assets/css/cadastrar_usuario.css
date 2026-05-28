@@ -115,20 +115,21 @@ header {
     position: relative;
 }
 
-/* itens do submenu */
 
 .submenu li{
     padding:10px 20px;
     display: block;
 }
 
-/* hover do dropdown */
 
 .dropdown:hover .submenu {
+<<<<<<< HEAD
     display: block;
+=======
+    display: block; 
+>>>>>>> 8756f009c9c16342350186354d2f34eb3f365a5b
 }
 
-/* hover dos itens */
 
 .submenu li:hover{
     background-color:#0d2235;

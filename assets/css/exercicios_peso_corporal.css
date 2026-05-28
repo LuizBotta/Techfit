@@ -84,7 +84,6 @@ footer .redes-sociais img{
 
 }
 
-/* HEADER */
 
 header{
     background-color: #00060C;
@@ -144,20 +143,18 @@ header{
     position: relative;
 }
 
-/* itens do submenu */
 
 .submenu li{
     padding:10px 20px;
     display: block;
 }
 
-/* hover do dropdown */
 
 .dropdown:hover .submenu {
-    display: block; /* nunca flex, sempre block */
+    display: block; 
 }
 
-/* hover dos itens */
+
 
 .submenu li:hover{
     background-color:#0d2235;
@@ -187,7 +184,6 @@ header{
     color: #00ACFE;
 }
 
-/* ======================================= */
 
 .banner-exercicios {
     background-image: url("/Techfit/Techfit/assets/img/banner_exercicios_academia.png");
@@ -236,7 +232,6 @@ header{
     color: #CCCCCC;
 }
 
-/* ======================================= */
 
 .conteudo-exercicios{
 
@@ -246,8 +241,6 @@ header{
 
     padding: 40px 60px;
 }
-
-/* ======================================= */
 
 .filtro{
 
@@ -292,8 +285,6 @@ header{
     background-color: #006594;
 }
 
-/* ======================================= */
-
 .lista-exercicios{
     flex: 1;
 }
@@ -315,7 +306,6 @@ header{
     margin-bottom: 30px;
 }
 
-/* ======================================= */
 
 .cards-exercicios{
 
@@ -326,7 +316,6 @@ header{
     gap: 20px;
 }
 
-/* ======================================= */
 
 .card-exercicio{
 

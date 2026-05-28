@@ -111,20 +111,17 @@ header {
     position: relative;
 }
 
-/* itens do submenu */
 
 .submenu li{
     padding:10px 20px;
     display: block;
 }
 
-/* hover do dropdown */
 
 .dropdown:hover .submenu {
-    display: block; /* nunca flex, sempre block */
+    display: block; 
 }
 
-/* hover dos itens */
 
 .submenu li:hover{
     background-color:#0d2235;
@@ -168,11 +165,6 @@ header {
 }
 
 
-
-
-
-
-
 .banner {
     background-image: 
         linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
@@ -193,7 +185,7 @@ header {
 }
 
 .fundo-forms {
-    background-color: #0d2235cc; /* levemente transparente */
+    background-color: #0d2235cc; 
     width: 400px;
     padding: 40px 30px;
     border-radius: 10px;
@@ -205,11 +197,11 @@ header {
     color: white;
     text-align: center;
     margin-bottom: 10px;
-    margin-left: 0; /* remova o margin-left anterior */
+    margin-left: 0; 
 }
 
 form input {
-    width: 100%; /* ocupa a largura do form */
+    width: 100%; 
     margin-top: 20px;
     padding: 12px 16px;
     border: 1px solid #00ACFE55;

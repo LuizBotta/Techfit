@@ -31,7 +31,7 @@
             </li>
 
             <li><a href="">TREINOS</a></li>
-            <li><a href="">NUTRIÇÃO</a></li>
+            <li><a href="nutricao.php">NUTRIÇÃO</a></li>
             <li><a href="">SOBRE NÓS</a></li>
         </ul>
     </section>
@@ -41,8 +41,6 @@
     </section>
 
 </header>
-
-<!-- ================================================= -->
 
 <section class="banner-exercicios">
 
@@ -64,7 +62,6 @@
 <section class="modalidades">   
             <h1>Exercicios</h1>
         </section>
-<!-- ================================================= -->
 
 <section class="conteudo-exercicios">
 
@@ -82,8 +79,6 @@
 
     </section>
 
-    <!-- ============================================= -->
-
     <section class="lista-exercicios">
 
         <section class="barra-pesquisa">
@@ -92,7 +87,6 @@
 
         </section>
 
-        <!-- cards -->
 
         <section class="cards-exercicios">
 
@@ -114,8 +108,6 @@
 
             </section>
 
-            <!-- ========================== -->
-
             <section class="card-exercicio">
 
                 <img src="../assets/img/triceps_alongamento.png" alt="triceps">
@@ -134,8 +126,6 @@
 
             </section>
 
-            <!-- ========================== -->
-
             <section class="card-exercicio">
 
                 <img src="../assets/img/posterior.png" alt="posterior">
@@ -153,8 +143,6 @@
                 </section>
 
             </section>
-
-            <!-- ========================== -->
 
             <section class="card-exercicio">
 

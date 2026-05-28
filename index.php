@@ -28,12 +28,12 @@
                 </li>
                 <li><a href="">TREINOS</a></li>
                 <li><a href="view/nutricao.php">NUTRIÇÃO</a></li>
-                <li><a href="view/login.php">SOBRE NÓS</a></li>
+                <li><a href="view/sobre_nos.php">SOBRE NÓS</a></li>
             </ul>
         </section>
         
         <section class="botao-entrar">
-            <button>ENTRAR</button> 
+            <button><a href="view/login.php"> ENTRAR </a></button> 
         </section>
 
     </header>
