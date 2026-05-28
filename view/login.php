@@ -48,6 +48,9 @@
                         <section class="cadastrar">
                             <p>Entrar</p>
                         </section>
+                        <section class="recuperar-senha">
+                            <a href=""><p>Esqueceu a senha?</p></a>
+                        </section>
                     </section>
                 </section>
             </section>
