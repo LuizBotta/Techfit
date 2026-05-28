@@ -31,7 +31,7 @@
             </li>
 
             <li><a href="">TREINOS</a></li>
-            <li><a href="">NUTRIÇÃO</a></li>
+            <li><a href="nutricao.php">NUTRIÇÃO</a></li>
             <li><a href="">SOBRE NÓS</a></li>
         </ul>
     </section>

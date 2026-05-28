@@ -142,7 +142,6 @@ header {
     list-style: none;
 }
 
-
 .menu-horizontal li{
     padding: 20px;
 }
@@ -256,6 +255,7 @@ header {
     border: solid 2px #00AC;
     border-radius: 10px;
     overflow: hidden;
+    gap: 20px;
 }
 
 .modalidade-card img {
