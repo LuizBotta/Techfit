@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link rel="stylesheet" href="../assets/css/exercicio_academia.css">
 
     <title>Exercícios Academia</title>
@@ -32,7 +31,7 @@
 
             <li><a href="">TREINOS</a></li>
             <li><a href="nutricao.php">NUTRIÇÃO</a></li>
-            <li><a href="">SOBRE NÓS</a></li>
+            <li><a href="sobre_nos.php">SOBRE NÓS</a></li>
         </ul>
     </section>
 
@@ -61,7 +60,7 @@
 
 <section class="modalidades">   
             <h1>Exercicios</h1>
-        </section>
+    </section>
 
 <section class="conteudo-exercicios">
 

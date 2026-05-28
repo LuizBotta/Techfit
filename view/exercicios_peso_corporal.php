@@ -1,10 +1,4 @@
-<?php
-session_start();
-if (!isset($_SESSION["cliente_id"])) {
-    header('Location: view/login.php');
-    die();
-}
-?>
+<?php session_start(); ?>
 
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -40,13 +34,17 @@ if (!isset($_SESSION["cliente_id"])) {
 
             <li><a href="">TREINOS</a></li>
             <li><a href="nutricao.php">NUTRIÇÃO</a></li>
-            <li><a href="">SOBRE NÓS</a></li>
+            <li><a href="sobre_nos.php">SOBRE NÓS</a></li>
         </ul>
     </section>
-
-    <section class="botao-entrar">
-        <button>ENTRAR</button> 
-    </section>
+        <section class="botao-entrar">
+            <?php if (isset($_SESSION["cliente_id"])): ?>
+                <section>Olá, <?= $_SESSION["cliente_nome"] ?></section>
+                <a href="logout.php"><button>SAIR</button></a>
+            <?php else: ?>
+                <button><a href="view/login.php">ENTRAR</a></button>
+            <?php endif; ?> 
+        </section>
 
 </header>
 <section class="banner-exercicios">

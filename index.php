@@ -33,7 +33,7 @@
         </section>
         
         <section class="botao-entrar">
-            <button><a href="view/login.php"> ENTRAR </a></button> 
+            <button>ENTRAR</button> 
         </section>
 
     </header>
@@ -72,11 +72,6 @@
             </section>
             
             <section class="modalidade-card">
-                <a href="" ><img src="assets/img/mobilidade.png" alt="Rapaz fazendo mobilidade"> </a>
-                <p>Mobilidade</p>
-            </section>
-            
-            <section class="modalidade-card">
                 <a href="" ><img src="assets/img/alongamento.png" alt="Rapaz fazendo alongamento"> </a>
                 <p>Alongamento</p>
             </section>
@@ -88,7 +83,7 @@
                 <p class="banner-barra-titulo">PRONTO PARA TRANSFORMAR SEU CORPO?</p>
                 <p class="banner-barra-subtitulo">Crie sua conta e tenha acesso a treinos, planos e muito mais!</p>
             </section>
-             <a href="view/login.php" class="banner-barra-btn">CRIAR CONTA</a>
+             <a href="view/cadastro_usuario.php" class="banner-barra-btn">CRIAR CONTA</a>
 </section>
         <!-- *********************************************************** -->
         <footer>

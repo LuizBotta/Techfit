@@ -2,14 +2,13 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="../assets/css/nutricao.css">
-
-    <title>Exercícios Peso Corporal</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../assets/CSS/nutricao.css">
+        <title>Nutrição</title>
+    </head>
 </head>
-
 <body>
 
     <header>
@@ -33,8 +32,8 @@
                 </li>
 
                 <li><a href="">TREINOS</a></li>
-                <li><a href="">NUTRIÇÃO</a></li>
-                <li><a href="">SOBRE NÓS</a></li>
+                <li><a href="nutricao.php">NUTRIÇÃO</a></li>
+                <li><a href="sobre_nos.php">SOBRE NÓS</a></li>
             </ul>
         </section>
 
@@ -43,19 +42,6 @@
         </section>
 
     </header>
-
-    <!DOCTYPE html>
-    <html lang="pt-BR">
-
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="../assets/CSS/style.css">
-        <link rel="stylesheet" href="../assets/CSS/nutricao.css">
-        <title>Nutrição - TechFit</title>
-    </head>
-
-    <body>
 
         <section class="banner-nutricao">
             <img src="../assets/img/banner_nutricao.png" alt="Banner Nutrição" class="banner-nutricao-img">
@@ -100,7 +86,6 @@
 
         <section class="refeicoes-dicas">
 
-            <!-- REFEIÇÕES -->
             <section class="refeicoes">
                 <h2 class="secao-titulo">REFEIÇÕES FITNESS</h2>
 
