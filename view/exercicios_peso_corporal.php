@@ -24,8 +24,9 @@
                 <a href="">EXERCICIOS</a>
 
                 <ul class="submenu">
-                    <li><a href="">Academia</a></li>
-                    <li><a href="">Peso Corporal</a></li>
+                    <li><a href="exercicios_academia.php">Academia</a></li>
+                    <li><a href="exercicios_peso_corporal.php">Peso Corporal</a></li>
+                    <li><a href="exercicios_alongamento.php">Alongamento</a></li>
                 </ul>
             </li>
 
@@ -237,7 +238,6 @@
                     <h3>MODALIDADES</h3>
                     <a href="#">Peso Corporal</a>
                     <a href="#">Musculação</a>
-                    <a href="#">Mobilidade</a>
                     <a href="#">Alongamento</a>
                 </section>
 

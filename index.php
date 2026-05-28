@@ -21,8 +21,9 @@
                 <li class="dropdown">
                     <a href="">EXERCICIOS</a>
                 <ul class="submenu">
-                    <li><a href="">Academia</a></li>
-                    <li><a href="">Peso Corporal</a></li>
+                    <li><a href="view/exercicios_academia.php">Academia</a></li>
+                    <li><a href="view/exercicios_peso_corporal.php">Peso Corporal</a></li>
+                    <li><a href="view/exercicios_alongamento.php">Alongamento</a></li>
                 </ul>
                 </li>
                 <li><a href="">TREINOS</a></li>
@@ -61,12 +62,12 @@
         </section>
         <section class="modalidades-opcoes"> 
             <section class="modalidade-card">
-                <a href="" ><img src="assets/img/flexao.png" alt="Rapaz fazendo flexão"></a>
+                <a href="view/exercicios_peso_corporal.php" ><img src="assets/img/flexao.png" alt="Rapaz fazendo flexão"></a>
                 <p>Peso Corporal</p>
             </section>
             
             <section class="modalidade-card">
-                <a href="" ><img src="assets/img/biceps.png" alt="Rapaz fazendo biceps"></a>
+                <a href="view/exercicios_academia.php" ><img src="assets/img/biceps.png" alt="Rapaz fazendo biceps"></a>
                 <p>Musculação</p>
             </section>
             
@@ -105,7 +106,6 @@
                     <h3>MODALIDADES</h3>
                     <a href="#">Peso Corporal</a>
                     <a href="#">Musculação</a>
-                    <a href="#">Mobilidade</a>
                     <a href="#">Alongamento</a>
                 </section>
 

@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="../assets/css/exercicio_academia.css">
+    <link rel="stylesheet" href="../assets/css/exercicios_peso_corporal.css">
 
-    <title>Exercícios Academia</title>
-</head>
+    <title>Exercícios Peso Corporal</title>
+</head> 
 <body>
 
 <header> 
@@ -53,7 +53,7 @@
         <h1 id="destaque">RESULTADOS.</h1>
 
         <p>
-            Explore nossa biblioteca completa de exercícios
+            Explore nossa biblioteca completa de alongamento
             para todos os grupos musculares.
         </p>
 
@@ -78,8 +78,7 @@
         <button>Costas</button>
         <button>Pernas</button>
         <button>Ombros</button>
-        <button>Bíceps</button>
-        <button>Tríceps</button>
+        
 
     </section>
 
@@ -99,15 +98,14 @@
 
             <section class="card-exercicio">
 
-                <img src="../assets/img/supino.png" alt="Supino">
+                <img src="../assets/img/peito.png" alt="peito">
 
                 <section class="card-texto">
 
-                    <h3>Supino Reto</h3>
+                    <h3>Alongamento para Peitoral</h3>
 
                     <p>
-                        Exercício clássico para desenvolvimento
-                        do peitoral.
+                        Mãos entrelaçadas atrás do corpo, puxando os braços para trás e expandindo o tórax.
                     </p>
 
                     <a href="">VER DETALHES</a>
@@ -120,15 +118,14 @@
 
             <section class="card-exercicio">
 
-                <img src="../assets/img/agachamento.png" alt="Agachamento">
+                <img src="../assets/img/triceps_alongamento.png" alt="triceps">
 
                 <section class="card-texto">
 
-                    <h3>Agachamento</h3>
+                    <h3>Alongamento de triceps</h3>
 
                     <p>
-                        Exercício fundamental para pernas
-                        e glúteos.
+                        Braço elevado e dobrado atrás da cabeça, puxado pelo outro braço.
                     </p>
 
                     <a href="">VER DETALHES</a>
@@ -141,15 +138,14 @@
 
             <section class="card-exercicio">
 
-                <img src="../assets/img/remada.png" alt="Remada">
+                <img src="../assets/img/posterior.png" alt="posterior">
 
                 <section class="card-texto">
 
-                    <h3>Remada Sentada</h3>
+                    <h3>Alongamento de Posterior</h3>
 
                     <p>
-                        Fortalece a musculatura das costas
-                        e melhora postura.
+                        Tronco inclinado à frente com pernas estendidas, tocando os pés.
                     </p>
 
                     <a href="">VER DETALHES</a>
@@ -162,15 +158,14 @@
 
             <section class="card-exercicio">
 
-                <img src="../assets/img/rosca.png" alt="Rosca">
+                <img src="../assets/img/quadril.png" alt="quadril">
 
                 <section class="card-texto">
 
-                    <h3>Rosca Direta</h3>
+                    <h3>Alongamento de quadril</h3>
 
                     <p>
-                        Exercício isolado para bíceps
-                        com halteres.
+                        Postura de avanço com o joelho no chão, empurrando o quadril à frente para abrir a região.
                     </p>
 
                     <a href="">VER DETALHES</a>
@@ -181,15 +176,14 @@
 
             <section class="card-exercicio">
 
-                <img src="../assets/img/triceps.png" alt="Triceps">
+                <img src="../assets/img/panturrilha.png" alt="panturrilha">
 
                 <section class="card-texto">
 
-                    <h3>Triceps Pulley</h3>
+                    <h3>Alongamento da Panturrilha</h3>
 
                     <p>
-                        Exercício isolado para triceps
-                        com corda na polia.
+                        Corpo inclinado à frente com uma perna estendida e o calcanhar pressionado contra o solo.
                     </p>
 
                     <a href="">VER DETALHES</a>
@@ -200,15 +194,14 @@
 
             <section class="card-exercicio">
 
-                <img src="../assets/img/legpress.png" alt="Legpress">
+                <img src="../assets/img/trapezio.png" alt="trapezio">
 
                 <section class="card-texto">
 
-                    <h3>LegPress</h3>
+                    <h3>Alongamento do Trapezio</h3>
 
                     <p>
-                        Exercício para quadriceps
-                        e posterior de coxa.
+                        Cabeça inclinada lateralmente com a mão puxando suavemente.
                     </p>
 
                     <a href="">VER DETALHES</a>
